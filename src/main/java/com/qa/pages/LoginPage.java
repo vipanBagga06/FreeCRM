@@ -17,9 +17,6 @@ public class LoginPage extends Base {
 
 	private By headerSections = By.cssSelector("div#navbar-collapse a");
 
-	//@FindBy(css = "div#navbar-collapse a")
-	//List<WebElement> headerLinks;
-
 	@FindBy(name = "username")
 	WebElement usernameField;
 

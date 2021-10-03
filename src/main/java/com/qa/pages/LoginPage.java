@@ -16,7 +16,7 @@ public class LoginPage extends Base {
 	WebElement logoImage;
 
 	private By headerSections = By.cssSelector("div#navbar-collapse a");
-
+	
 	@FindBy(name = "username")
 	WebElement usernameField;
 

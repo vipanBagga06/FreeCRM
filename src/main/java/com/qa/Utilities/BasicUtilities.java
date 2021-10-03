@@ -1,11 +1,16 @@
 package com.qa.Utilities;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -58,5 +63,17 @@ public class BasicUtilities extends Base{
 			}
 		}
 		return data;
+	}
+	
+	public static void failed(String testMethodName) {
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(src, new File("/Users/vipan/eclipse-workspace/"
+					+ "com.qa.FreeCRMDesignOne2021/Screenshots/"+testMethodName+".jpg"));
+		} 
+		catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }

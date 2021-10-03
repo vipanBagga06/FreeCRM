@@ -3,6 +3,7 @@
 <suite name="Failed suite [Free CRM Automation Suite]">
   <listeners>
     <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.qa.CustomListener.CustomListener"/>
   </listeners>
   <test name="Free CRM Automation Test(failed)">
     <classes>
@@ -13,18 +14,6 @@
           <include name="verifyLoginPageLogoTest"/>
         </methods>
       </class> <!-- com.qa.tests.LoginPageTest -->
-      <class name="com.qa.tests.HomePageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.qa.tests.HomePageTest -->
-      <class name="com.qa.tests.NewCompanyTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.qa.tests.NewCompanyTest -->
     </classes>
   </test> <!-- Free CRM Automation Test(failed) -->
 </suite> <!-- Failed suite [Free CRM Automation Suite] -->

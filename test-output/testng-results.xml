@@ -1,217 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="13" passed="12">
+<testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Free CRM Automation Suite" duration-ms="190578" started-at="2021-10-02T05:42:35Z" finished-at="2021-10-02T05:45:46Z">
+  <suite name="Free CRM Automation Suite" duration-ms="50549" started-at="2021-10-03T14:31:14Z" finished-at="2021-10-03T14:32:05Z">
     <groups>
     </groups>
-    <test name="Free CRM Automation Test" duration-ms="190578" started-at="2021-10-02T05:42:35Z" finished-at="2021-10-02T05:45:46Z">
-      <class name="com.qa.tests.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="setUp" is-config="true" duration-ms="12327" started-at="2021-10-02T11:13:24Z" finished-at="2021-10-02T11:13:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserNameDisplayedTest()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="verifyUserNameDisplayedTest" duration-ms="59" started-at="2021-10-02T11:13:37Z" finished-at="2021-10-02T11:13:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserNameDisplayedTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="164" started-at="2021-10-02T11:13:37Z" finished-at="2021-10-02T11:13:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="setUp" is-config="true" duration-ms="12736" started-at="2021-10-02T11:13:37Z" finished-at="2021-10-02T11:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHeaderTextDisplayedTest()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="verifyHeaderTextDisplayedTest" duration-ms="37" started-at="2021-10-02T11:13:50Z" finished-at="2021-10-02T11:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHeaderTextDisplayedTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="148" started-at="2021-10-02T11:13:50Z" finished-at="2021-10-02T11:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="setUp" is-config="true" duration-ms="13362" started-at="2021-10-02T11:13:50Z" finished-at="2021-10-02T11:14:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLeftSideContainerTest()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="verifyLeftSideContainerTest" duration-ms="43" started-at="2021-10-02T11:14:03Z" finished-at="2021-10-02T11:14:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLeftSideContainerTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="141" started-at="2021-10-02T11:14:03Z" finished-at="2021-10-02T11:14:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="setUp" is-config="true" duration-ms="12867" started-at="2021-10-02T11:14:03Z" finished-at="2021-10-02T11:14:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySetUpLinkTest()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="verifySetUpLinkTest" duration-ms="36" started-at="2021-10-02T11:14:16Z" finished-at="2021-10-02T11:14:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySetUpLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="165" started-at="2021-10-02T11:14:16Z" finished-at="2021-10-02T11:14:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="setUp" is-config="true" duration-ms="12645" started-at="2021-10-02T11:14:16Z" finished-at="2021-10-02T11:14:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHelpLinkTest()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="verifyHelpLinkTest" duration-ms="38" started-at="2021-10-02T11:14:29Z" finished-at="2021-10-02T11:14:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHelpLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="168" started-at="2021-10-02T11:14:29Z" finished-at="2021-10-02T11:14:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="setUp" is-config="true" duration-ms="12918" started-at="2021-10-02T11:14:29Z" finished-at="2021-10-02T11:14:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLogoutLinkTest()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="verifyLogoutLinkTest" duration-ms="33" started-at="2021-10-02T11:14:42Z" finished-at="2021-10-02T11:14:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogoutLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="148" started-at="2021-10-02T11:14:42Z" finished-at="2021-10-02T11:14:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="setUp" is-config="true" duration-ms="12606" started-at="2021-10-02T11:14:42Z" finished-at="2021-10-02T11:14:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyNewEventSubMenuTest()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="verifyNewEventSubMenuTest" duration-ms="252" started-at="2021-10-02T11:14:55Z" finished-at="2021-10-02T11:14:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNewEventSubMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="138" started-at="2021-10-02T11:14:55Z" finished-at="2021-10-02T11:14:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.tests.HomePageTest -->
-      <class name="com.qa.tests.NewCompanyTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.NewCompanyTest@91161c7]" name="setUp" is-config="true" duration-ms="14378" started-at="2021-10-02T11:14:56Z" finished-at="2021-10-02T11:15:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNewCompanyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.NewCompanyTest@91161c7]" name="createNewCompanyTest" duration-ms="2150" started-at="2021-10-02T11:15:10Z" data-provider="getData" finished-at="2021-10-02T11:15:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Com1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Indus1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1 lacs]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Active]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.NewCompanyTest@91161c7]" name="tearDown" is-config="true" duration-ms="143" started-at="2021-10-02T11:15:12Z" finished-at="2021-10-02T11:15:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.NewCompanyTest@91161c7]" name="setUp" is-config="true" duration-ms="14212" started-at="2021-10-02T11:15:13Z" finished-at="2021-10-02T11:15:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNewCompanyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.NewCompanyTest@91161c7]" name="createNewCompanyTest" duration-ms="2207" started-at="2021-10-02T11:15:27Z" data-provider="getData" finished-at="2021-10-02T11:15:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Com2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Indus2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2 lacs]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Hot]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.NewCompanyTest@91161c7]" name="tearDown" is-config="true" duration-ms="148" started-at="2021-10-02T11:15:29Z" finished-at="2021-10-02T11:15:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.NewCompanyTest@91161c7]" name="setUp" is-config="true" duration-ms="14118" started-at="2021-10-02T11:15:29Z" finished-at="2021-10-02T11:15:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNewCompanyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.NewCompanyTest@91161c7]" name="createNewCompanyTest" duration-ms="2449" started-at="2021-10-02T11:15:43Z" data-provider="getData" finished-at="2021-10-02T11:15:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Com3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Indus3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3 lacs]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Inactive]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.NewCompanyTest@91161c7]" name="tearDown" is-config="true" duration-ms="169" started-at="2021-10-02T11:15:46Z" finished-at="2021-10-02T11:15:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.tests.NewCompanyTest -->
+    <test name="Free CRM Automation Test" duration-ms="50549" started-at="2021-10-03T14:31:14Z" finished-at="2021-10-03T14:32:05Z">
       <class name="com.qa.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@26653222]" name="setUp" is-config="true" duration-ms="7883" started-at="2021-10-02T11:12:35Z" finished-at="2021-10-02T11:12:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@61832929]" name="setUp" is-config="true" duration-ms="9182" started-at="2021-10-03T20:01:14Z" finished-at="2021-10-03T20:01:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoginPageLogoTest()[pri:0, instance:com.qa.tests.LoginPageTest@26653222]" name="verifyLoginPageLogoTest" duration-ms="20087" started-at="2021-10-02T11:12:43Z" finished-at="2021-10-02T11:13:03Z">
+        <test-method status="FAIL" signature="verifyLoginPageLogoTest()[pri:0, instance:com.qa.tests.LoginPageTest@61832929]" name="verifyLoginPageLogoTest" duration-ms="20086" started-at="2021-10-03T20:01:23Z" finished-at="2021-10-03T20:01:44Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'logo111')]"}
   (Session info: chrome=94.0.4606.71)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Vipans-MacBook-Air.local', ip: 'fe80:0:0:0:14bf:937c:18b4:3268%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_151'
+System info: host: 'Vipans-MacBook-Air.local', ip: 'fe80:0:0:0:1846:6551:b146:c7c9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/4g/kzcc4nxx245...}, goog:chromeOptions: {debuggerAddress: localhost:52400}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e5810d52d14ce01bcfab02fa520ded53
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/4g/kzcc4nxx245...}, goog:chromeOptions: {debuggerAddress: localhost:51511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d858f585bba570174889a1fa30352964
 *** Element info: {Using=xpath, value=//img[contains(@src,'logo111')]}]]>
             </message>
             <full-stacktrace>
@@ -219,10 +29,10 @@ Session ID: e5810d52d14ce01bcfab02fa520ded53
   (Session info: chrome=94.0.4606.71)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Vipans-MacBook-Air.local', ip: 'fe80:0:0:0:14bf:937c:18b4:3268%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_151'
+System info: host: 'Vipans-MacBook-Air.local', ip: 'fe80:0:0:0:1846:6551:b146:c7c9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/4g/kzcc4nxx245...}, goog:chromeOptions: {debuggerAddress: localhost:52400}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e5810d52d14ce01bcfab02fa520ded53
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/4g/kzcc4nxx245...}, goog:chromeOptions: {debuggerAddress: localhost:51511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d858f585bba570174889a1fa30352964
 *** Element info: {Using=xpath, value=//img[contains(@src,'logo111')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -240,8 +50,8 @@ Session ID: e5810d52d14ce01bcfab02fa520ded53
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
-	at com.qa.pages.LoginPage.isLogoImageDisplayed(LoginPage.java:37)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.qa.pages.LoginPage.isLogoImageDisplayed(LoginPage.java:34)
 	at com.qa.tests.LoginPageTest.verifyLoginPageLogoTest(LoginPageTest.java:35)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -273,31 +83,31 @@ Session ID: e5810d52d14ce01bcfab02fa520ded53
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@26653222]" name="tearDown" is-config="true" duration-ms="176" started-at="2021-10-02T11:13:03Z" finished-at="2021-10-02T11:13:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@61832929]" name="tearDown" is-config="true" duration-ms="147" started-at="2021-10-03T20:01:44Z" finished-at="2021-10-03T20:01:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@26653222]" name="setUp" is-config="true" duration-ms="7143" started-at="2021-10-02T11:13:03Z" finished-at="2021-10-02T11:13:11Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@61832929]" name="setUp" is-config="true" duration-ms="7151" started-at="2021-10-03T20:01:45Z" finished-at="2021-10-03T20:01:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHeaderLinksTest()[pri:0, instance:com.qa.tests.LoginPageTest@26653222]" name="verifyHeaderLinksTest" duration-ms="161" started-at="2021-10-02T11:13:11Z" finished-at="2021-10-02T11:13:11Z">
+        <test-method status="PASS" signature="verifyHeaderLinksTest()[pri:0, instance:com.qa.tests.LoginPageTest@61832929]" name="verifyHeaderLinksTest" duration-ms="169" started-at="2021-10-03T20:01:52Z" finished-at="2021-10-03T20:01:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHeaderLinksTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@26653222]" name="tearDown" is-config="true" duration-ms="137" started-at="2021-10-02T11:13:11Z" finished-at="2021-10-02T11:13:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@61832929]" name="tearDown" is-config="true" duration-ms="122" started-at="2021-10-03T20:01:52Z" finished-at="2021-10-03T20:01:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@26653222]" name="setUp" is-config="true" duration-ms="7139" started-at="2021-10-02T11:13:11Z" finished-at="2021-10-02T11:13:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@61832929]" name="setUp" is-config="true" duration-ms="7087" started-at="2021-10-03T20:01:52Z" finished-at="2021-10-03T20:01:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.tests.LoginPageTest@26653222]" name="loginTest" duration-ms="6010" started-at="2021-10-02T11:13:18Z" finished-at="2021-10-02T11:13:24Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.tests.LoginPageTest@61832929]" name="loginTest" duration-ms="5606" started-at="2021-10-03T20:01:59Z" finished-at="2021-10-03T20:02:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@26653222]" name="tearDown" is-config="true" duration-ms="171" started-at="2021-10-02T11:13:24Z" finished-at="2021-10-02T11:13:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@61832929]" name="tearDown" is-config="true" duration-ms="136" started-at="2021-10-03T20:02:05Z" finished-at="2021-10-03T20:02:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
